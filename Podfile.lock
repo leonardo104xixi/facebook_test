@@ -1,0 +1,48 @@
+PODS:
+  - FacebookSDK (5.15.1):
+    - FacebookSDK/CoreKit (= 5.15.1)
+    - FacebookSDK/MarketingKit (= 5.15.1)
+  - FacebookSDK/CoreKit (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookSDK/LoginKit (5.15.1):
+    - FacebookSDK/CoreKit
+    - FBSDKLoginKit (~> 5.0)
+  - FacebookSDK/MarketingKit (5.15.1):
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKMarketingKit (5.14.0):
+    - FBSDKCoreKit (~> 5.5)
+
+DEPENDENCIES:
+  - FacebookSDK (from `/Users/xixi/Desktop/facebook_1`)
+  - FacebookSDK/LoginKit (from `/Users/xixi/Desktop/facebook_1`)
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+
+EXTERNAL SOURCES:
+  FacebookSDK:
+    :path: "/Users/xixi/Desktop/facebook_1"
+
+SPEC CHECKSUMS:
+  FacebookSDK: 40811aca4741187ac7e6b175f261edee4edfc58a
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  FBSDKMarketingKit: b9dd220b38cc613c71d3eb626cd60bc8e938fbb4
+
+PODFILE CHECKSUM: a95bf9cded23ae33d082610ad13c0ec4eb7611f6
+
+COCOAPODS: 1.9.0
